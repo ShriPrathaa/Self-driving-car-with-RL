@@ -1,0 +1,2 @@
+# AWS Deepracer Student
+I have devised a basic reward function for training using the PPO algorithm on AWS DeepRacer Student. The function prioritizes higher rewards when all wheels remain on the track and the car is closer to the centerline, especially when moving straight. It penalizes excessive steering and decreases throttle while steering to promote smoother navigation. Furthermore, the reward function needs to be adapted to real-time scenarios where other cars may be present, acknowledging that staying close to the centerline may not always be feasible.
